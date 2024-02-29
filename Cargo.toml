@@ -3,11 +3,9 @@ name = "multitouch"
 version = "0.1.0"
 authors = ["Artur Sapek <artur@kraken.com>"]
 edition = "2021"
-
-[dependencies.iced]
-version = "0.12.1"
-features = ["debug", "canvas", "tokio","wgpu","lazy"]
+repository = "https://github.com/skygrango/multitouch.git"
 
 [dependencies]
 tracing-subscriber = "0.3"
 voronator = "0.2"
+iced = { version="0.12.1", features = ["debug", "canvas", "tokio","wgpu","lazy"] }
