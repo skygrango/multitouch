@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Artur Sapek <artur@kraken.com>"]
 edition = "2021"
 repository = "https://github.com/skygrango/multitouch.git"
+namespaced-features = true
 
 [dependencies]
 tracing-subscriber = "0.3"
